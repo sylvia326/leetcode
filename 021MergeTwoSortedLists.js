@@ -31,3 +31,4 @@ var mergeTwoLists = function(l1, l2) {
 4. L1或者l2任意一个链表提前走完，证明没走完的链表里剩下的都是大的数，直接curr.next = l1/l2
 5. 两个链表都走完后，返回新链表的头部dummy.next（因为第一位是空值所以要.next）
  */
+
